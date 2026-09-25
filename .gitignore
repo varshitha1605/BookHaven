@@ -12,4 +12,4 @@ server/target/
 
 # IDE
 .vscode/
-.idea/
+.idea/git rm -r --cached server/target
