@@ -1,0 +1,15 @@
+# Frontend
+client/node_modules/
+client/dist/
+
+# Backend
+server/target/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/

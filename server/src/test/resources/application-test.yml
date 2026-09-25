@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/bookstore_test
+    username: bookstore
+    password: bookstore
+  jpa:
+    show-sql: true
+  flyway:
+    enabled: true
+
+app:
+  jwt:
+    secret: test-secret-key-minimum-256-bits-long-for-tests-only
+    access-token-expiry-ms: 900000
+    refresh-token-expiry-ms: 604800000
+  cors:
+    allowed-origins: http://localhost:5173
+  stripe:
+    secret-key: sk_test_placeholder
+
+logging:
+  level:
+    com.bookstore: DEBUG
